@@ -1,0 +1,53 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+header{
+	width: 100%;
+}
+
+.navegacion{
+	width: 2000px;
+	margin: 0px auto;
+	background: #797777;
+        overflow: hidden;
+        height: 7%;
+        position: absolute;
+        margin: 0px;
+        padding: 0px;
+      
+}
+
+.navegacion ul{
+	list-style: none;
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: #353535;
+	font-family: 'Open sans';
+	text-decoration: none;
+
+}
+
+.menu li a:hover{
+	color: #000000;
+	transition: all .3s;
+        background-color: #16E1E0
+}
+
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 15;
+}

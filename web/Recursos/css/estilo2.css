@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: url(../imagenes/BodyImage.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+
+#cuadro{
+    width:400px;
+    background: #9ACD50;
+    color:#ffffff;
+    margin: auto;
+    margin-top: 120px;
+    padding:5px 5px 30px 5px;
+    border-top:20px solid #9ACD32;
+    border-left:35px solid #9ACD32;
+    border-right:35px solid #9ACD32;
+    border-radius: 6px;
+    opacity: 0.9;
+}
+
+#entrada{
+
+    width:400px;
+    height:35px;
+    border-radius:10px;
+    font-family:verdana;
+    font-weight:900;
+    color: #000000;
+
+}
+
+#boton{
+
+    width: 320px;
+    height: 45px;
+    border-radius: 6px;
+    background: green;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+#titulo{
+    padding-top: 10px;
+    padding-left: 70px;
+    font-size: 30px;
+    font-family: fantasy;
+}
+
+#subtitulo{
+    padding-left: 80px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+#subtitulo2{
+    padding-left: 115px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+#tabla{
+    font-size: 18px;
+    width:100%;
+    height: auto;
+    background: #9ACD50;
+    color:#ffffff;
+    margin: auto;
+    margin-top: 90px;
+    padding:5px 5px 30px 5px;
+    border-radius: 6px;
+    opacity: 1;
+}
+
+/* Estilos - Grid */
+
+.grilla_titulo {
+    color: #003366;
+    font-family: Verdana, Helvetica, Arial;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.grilla_cabecera {
+    background-color: #003366;
+    color: #FFFFFF;
+    font-family: Verdana, Helvetica, Arial;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+.grilla_campo {
+    color: #003366;
+    font-family: Verdana, Helvetica, Arial;
+    font-weight: normal;
+    font-size: 10px;
+}
+
+
+
+
+
+
