@@ -15,7 +15,7 @@ public class MySQLDBConexion {
         } catch (ClassNotFoundException ex) {
             Logger.getLogger(MySQLDBConexion.class.getName()).log(Level.SEVERE, null, ex);
         }
-        conn=DriverManager.getConnection("jdbc:mysql://localhost:3306/surcosalud","root","");
+        conn=DriverManager.getConnection("jdbc:mysql://sql10.freemysqlhosting.net/sql10348021","sql10348021","ydzU6sGHsQ");
         return conn;
     }
     
