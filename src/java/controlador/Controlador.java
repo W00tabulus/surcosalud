@@ -177,7 +177,7 @@ public class Controlador extends HttpServlet {
                 HttpSession session = request.getSession(true);
                 session.setAttribute("idPro",validarpaci);
                 
-                request.getRequestDispatcher("/MenuPaciente.jsp").forward(request, response);
+                request.getRequestDispatcher("/MenuPaciente.html").forward(request, response);
             }else{
                 request.getRequestDispatcher("/LoginError.jsp").forward(request, response);
             }      
